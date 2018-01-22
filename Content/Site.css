@@ -1,0 +1,113 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.dl-horizontal dt, .dl-horizontal dd {
+   line-height:60px;
+}
+
+.dl-horizontal {
+    border: 1px dashed gray;
+    padding: 2%;
+}
+
+.navbar-inverse .navbar-brand,  .navbar-inverse .navbar-brand:visited, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:active{
+    background-color: black !important;
+    color: white !important;
+}
+
+.body-content {
+    margin-top:30px;
+}
+
+footer {
+    text-align:center;
+}
+
+th {
+    text-transform: uppercase;
+    background-color:#ededed;
+    color:#707070;
+}
+
+h1,h2,h3,h4,h5{
+    text-transform: uppercase;
+	color: black;
+}
+h1{
+	font-size: 22px;
+	line-height: 24px;
+}
+h2{
+	font-size: 20px;
+	line-height: 20px;
+}
+h3{
+	font-size: 16px;
+	line-height: 18px;
+}
+h4{
+	font-size: 16px;
+	line-height: 16px;
+    margin-bottom: 35px;
+}
+h5{
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.prj666-create-order {
+    border:1px dashed black;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prj666-create-order .col-md-10 {
+    width:inherit;
+}
+
+
+.prj666-create-order .form-group {
+    margin-left:15% !important;
+}
